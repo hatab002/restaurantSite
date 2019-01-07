@@ -1,0 +1,36 @@
+#homePageContainer{
+background: linear-gradient(white, khaki ,white)
+}
+.jumbotron{
+    background: inherit;
+    margin-left: 10px;
+}
+body{
+font-family: 'Dancing Script', cursive;
+}
+
+#restaurantName{
+    font-weight: bolder;
+    font-size: 80px;
+}
+p{
+    font-size:20px
+}
+nav a {
+    color: black;
+    background-color: khaki !important;
+    margin: 5px;
+    font-size: 20px;
+}
+nav a:hover {
+    font-weight: bolder;
+    color: inherit;
+}
+h5{
+    font-size: 25px;
+    font-weight: bold
+}
+.carousel-caption p{
+    font-size: 25px;
+    font-weight: bold
+}
