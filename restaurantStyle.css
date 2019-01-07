@@ -3,7 +3,10 @@ background: linear-gradient(white, khaki ,white)
 }
 .jumbotron{
     background: inherit;
-    margin-left: 10px;
+    margin: 0px;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 body{
 font-family: 'Dancing Script', cursive;
