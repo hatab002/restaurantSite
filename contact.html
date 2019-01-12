@@ -23,48 +23,45 @@
         </div>
     </header>
     <hr/>
-    <div class="container-fluid">
-            <form style="width:60%">
+    <div class="container-fluid" id="homePageContainer">
+            <form class="col-6" style="width:60%; margin-left:25%;">
                 <div class="form-group row">
-                    <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                    <label for="inputName" class="col-sm-2 col-form-label" style="font-weight:bold">Name</label>
                     <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputName" placeholder="Name">
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                    <label for="inputEmail" class="col-sm-2 col-form-label" style="font-weight:bold">Email</label>
                     <div class="col-sm-10">
                     <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="inputPhone" class="col-sm-2 col-form-label">Phone</label>
+                    <label for="inputPhone" class="col-sm-2 col-form-label" style="font-weight:bold">Phone</label>
                     <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number">
                     </div>
                 </div>
                 <div class="dropdown">
-                    <label for="dropdownMenu2" class="col-sm-4 col-form-label" style="padding-left:0px;">Reason for contacting</label>
-                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-bottom:15px;">
-                          Catering
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item" type="button">Catering</button>
-                        <button class="dropdown-item" type="button">Private Party</button>
-                        <button class="dropdown-item" type="button">Feedback</button>
-                        <button class="dropdown-item" type="button">Other</button>
-                    </div>
+                    <label class="col-sm-2 col-form-label" for="inlineFormCustomSelect" style="padding-left:0px; margin-top:0px; font-weight: bold">Reason for Contacting</label>
+                    <select class="custom-select col-sm-3" id="inlineFormCustomSelect" style="margin-bottom:15px; margin-top:0px;">
+                    <option selected>Catering</option>
+                    <option value="1">Private Party</option>
+                    <option value="2">Feedback</option>
+                    <option value="3">Other</option>
+                    </select>
                 </div>
                 
                 <div class="form-group row">
-                    <label for="inputTextArea" class="col-sm-2 col-form-label">Additional Comments</label>
+                    <label for="inputTextArea" class="col-sm-2 col-form-label" style="font-weight:bold">Additional Comments</label>
                     <div class="col-sm-10">
                         <textarea class="form-control" id="inputTextArea" aria-label="With textarea" placeholder="Additional Comments here.."></textarea>
                     </div>
                 </div>
                 <fieldset class="form-group">
                     <div class="row">
-                    <legend class="col-form-label col-sm-2 pt-0">Have you been here before?</legend>
+                    <legend class="col-form-label col-sm-2 pt-0" style="font-weight:bold">Have you been here before?</legend>
                     <div class="col-sm-10">
                         <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
@@ -82,7 +79,7 @@
                     </div>
                 </fieldset>
                 <div class="form-group row">
-                    <div class="col-sm-2">Best days to contact you</div>
+                    <div class="col-sm-2" style="font-weight:bold">Best days to contact you</div>
                     <div class="col-sm-10">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="gridCheck1">
@@ -129,7 +126,7 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 text-center">
                     <button type="submit" class="btn">Submit Request</button>
                     </div>
                 </div>
