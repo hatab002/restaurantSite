@@ -24,7 +24,7 @@
     </header>
     <hr/>
     <div class="container-fluid">
-            <form>
+            <form style="width:60%">
                 <div class="form-group row">
                     <label for="inputName" class="col-sm-2 col-form-label">Name</label>
                     <div class="col-sm-10">
@@ -44,7 +44,8 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <label for="dropdownMenu2" class="col-sm-4 col-form-label" style="padding-left:0px;">Reason for contacting</label>
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-bottom:15px;">
                           Catering
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -54,45 +55,82 @@
                         <button class="dropdown-item" type="button">Other</button>
                     </div>
                 </div>
+                
+                <div class="form-group row">
+                    <label for="inputTextArea" class="col-sm-2 col-form-label">Additional Comments</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="inputTextArea" aria-label="With textarea" placeholder="Additional Comments here.."></textarea>
+                    </div>
+                </div>
                 <fieldset class="form-group">
                     <div class="row">
-                    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                    <legend class="col-form-label col-sm-2 pt-0">Have you been here before?</legend>
                     <div class="col-sm-10">
-                        <div class="form-check">
+                        <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
                         <label class="form-check-label" for="gridRadios1">
-                            First radio
+                            Yes
                         </label>
                         </div>
-                        <div class="form-check">
+                        <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
                         <label class="form-check-label" for="gridRadios2">
-                            Second radio
-                        </label>
-                        </div>
-                        <div class="form-check disabled">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-                        <label class="form-check-label" for="gridRadios3">
-                            Third disabled radio
+                            No
                         </label>
                         </div>
                     </div>
                     </div>
                 </fieldset>
                 <div class="form-group row">
-                    <div class="col-sm-2">Checkbox</div>
+                    <div class="col-sm-2">Best days to contact you</div>
                     <div class="col-sm-10">
-                    <div class="form-check">
+                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="gridCheck1">
                         <label class="form-check-label" for="gridCheck1">
-                        Example checkbox
+                        Mon
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="gridCheck2">
+                        <label class="form-check-label" for="gridCheck2">
+                        Tue
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="gridCheck3">
+                        <label class="form-check-label" for="gridCheck3">
+                        Wed
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="gridCheck4">
+                        <label class="form-check-label" for="gridCheck4">
+                        Thu
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="gridCheck5">
+                        <label class="form-check-label" for="gridCheck5">
+                        Fri
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="gridCheck6">
+                        <label class="form-check-label" for="gridCheck6">
+                        Sat
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="gridCheck7">
+                        <label class="form-check-label" for="gridCheck7">
+                        Sun
                         </label>
                     </div>
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <button type="submit" class="btn">Submit Request</button>
                     </div>
                 </div>
             </form>
