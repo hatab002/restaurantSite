@@ -41,3 +41,13 @@ h5{
     font-size: 25px;
     font-weight: bold
 }
+#restAddress {
+    float:left; 
+    margin-left: 5px; 
+    font-size: 15px
+}
+#restPhone {
+    float:right; 
+    margin: 5px; 
+    font-size: 15px
+}

@@ -23,7 +23,7 @@
         </div>
     </header>
     <hr/>
-    <div id="homePageContainer" class="container-fluid">
+    <main id="homePageContainer" class="container-fluid">
         <div class="row">
             <div class="jumbotron jumbotron-fluid text-center">
                 <div>
@@ -35,14 +35,14 @@
         <hr/>
         <div class="row">
             <div class="col-2"></div>
-            <div class="col-4">
+            <section class="col-4">
                 <h5 class="text-center">A Little About Us</h5>
                 <hr/>
-                <p> Il Mediterraneo is a restaurant that takes cooking into a whole new realm. Its non-traditional way of cuisine will leave you in awe with every bite you take.
-                </p>
+                <article> Il Mediterraneo is a restaurant that takes cooking into a whole new realm. Its non-traditional way of cuisine will leave you in awe with every bite you take.
+                </article>
                 <p>Our vibe is that of Mediterranean countries with a strong Italian influence. With our carefully selected ingredients, most of which are imported from Italy are sure to take your taste buds on a journey to the moon and back. We are proud of being able to bring a little piece of culinary magic into your world.</p>
-            </div>
-            <div class="col-4">
+            </section>
+            <section class="col-4">
                 <h5 class="text-center">Announcements!</h5>
                 <hr/>
                 <div class="carousel slide carousel-fade" data-ride="carousel">
@@ -67,10 +67,10 @@
                       </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <div class="col-2"></div>
         </div>
-    </div>
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -78,7 +78,7 @@
     <script src="./restaurant.js"></script>
 </body>
  <footer>
-     <p style="float:left; margin-left: 5px; font-size: 15px">15436 Nicollet Ave N <br> Minneapolis, MN 55321</p>
-     <p style="float:right; margin: 5px; font-size: 15px">Phone: (952)-341-5561</p>
+     <p id="restAddress">15436 Nicollet Ave N <br> Minneapolis, MN 55321</p>
+     <p id="restPhone" >Phone: (952)-341-5561</p>
  </footer>
 </html>
